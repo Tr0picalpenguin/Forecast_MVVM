@@ -17,6 +17,7 @@
 		41978F6D27B9CE70001CB2C0 /* ResultError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41978F6C27B9CE70001CB2C0 /* ResultError.swift */; };
 		41978F6F27B9CF0A001CB2C0 /* DayForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41978F6E27B9CF0A001CB2C0 /* DayForecastTableViewCell.swift */; };
 		41978F7127B9CF46001CB2C0 /* DayDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41978F7027B9CF46001CB2C0 /* DayDetailsViewController.swift */; };
+		ED0CCBAE284FEFF900D73560 /* DayDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0CCBAD284FEFF900D73560 /* DayDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		41978F6C27B9CE70001CB2C0 /* ResultError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultError.swift; sourceTree = "<group>"; };
 		41978F6E27B9CF0A001CB2C0 /* DayForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayForecastTableViewCell.swift; sourceTree = "<group>"; };
 		41978F7027B9CF46001CB2C0 /* DayDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailsViewController.swift; sourceTree = "<group>"; };
+		ED0CCBAD284FEFF900D73560 /* DayDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		41978F4127B9C26C001CB2C0 /* Forecast_MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				ED0CCBAC284FEFD400D73560 /* View Models */,
 				41978F6527B9CDA8001CB2C0 /* Controller */,
 				41978F6427B9CDA1001CB2C0 /* Model */,
 				41978F6727B9CDB5001CB2C0 /* View */,
@@ -109,6 +112,14 @@
 				41978F7027B9CF46001CB2C0 /* DayDetailsViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		ED0CCBAC284FEFD400D73560 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED0CCBAD284FEFF900D73560 /* DayDetailViewModel.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED0CCBAE284FEFF900D73560 /* DayDetailViewModel.swift in Sources */,
 				41978F6F27B9CF0A001CB2C0 /* DayForecastTableViewCell.swift in Sources */,
 				41978F6D27B9CE70001CB2C0 /* ResultError.swift in Sources */,
 				41978F4327B9C26C001CB2C0 /* AppDelegate.swift in Sources */,
